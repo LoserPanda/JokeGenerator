@@ -1,0 +1,99 @@
+@keyframes example {
+    from {background-color: cadetblue;}
+    to {background-color: darkkhaki;}
+}
+
+@keyframes example2 {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}
+
+.body {
+    /*background-color: cadetblue;
+    background-image: url("lehma.jpg");*/
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-family: "Franklin Gothic Book";
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: cadetblue;
+    position: sticky;
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
+
+.keskitettynappi {
+    border: none;
+    padding: 20px;
+    color: white;
+    background-color: cadetblue;
+    font-weight: bold;
+}
+
+.keskitettynappi:hover {
+    color: cadetblue;
+    /*background-color: darkkhaki;*/
+    background-color: rgba(255, 255, 255, 0.3);
+    transition-duration: 0.5s;
+}
+
+.napinkeskitys {
+    text-align: center;
+}
+
+.keskitetty {
+    text-align: center;
+}
+
+#demo {
+    width: 450px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.kuvakotelo {
+    text-align: center;
+}
+
+.kuva {
+    width: 50%;
+    animation-name: example2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.footernappi {
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: cadetblue;
+    font-weight: bold;
+}
+
+.footernappi:hover {
+    color: cadetblue;
+    /*background-color: darkkhaki;*/
+    background-color: rgba(255, 255, 255, 0.3);
+    transition-duration: 0.5s;
+}
