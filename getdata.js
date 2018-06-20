@@ -10,6 +10,6 @@ function hae() {
                     obj.value[0].joke;
             }
         };
-        req.open("GET", "http://api.icndb.com/jokes/random/1", true);
+        req.open("GET", "https://api.icndb.com/jokes/random/1", true);
         req.send();
 }
