@@ -9,8 +9,6 @@
 }
 
 .body {
-    /*background-color: cadetblue;
-    background-image: url("lehma.jpg");*/
     animation-name: example;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -93,7 +91,6 @@
 
 .footernappi:hover {
     color: cadetblue;
-    /*background-color: darkkhaki;*/
     background-color: rgba(255, 255, 255, 0.3);
     transition-duration: 0.5s;
 }
