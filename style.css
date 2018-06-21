@@ -49,11 +49,11 @@
     font-weight: bold;
 }
 
-.keskitettynappi:hover {
+/*.keskitettynappi:hover {
     color: cadetblue;
     background-color: rgba(255, 255, 255, 0.3);
     transition-duration: 0.5s;
-}
+}*/
 
 .napinkeskitys {
     text-align: center;
@@ -88,8 +88,8 @@
     font-weight: bold;
 }
 
-.footernappi:hover {
+/*.footernappi:hover {
     color: cadetblue;
     background-color: rgba(255, 255, 255, 0.3);
     transition-duration: 0.5s;
-}
+}*/
