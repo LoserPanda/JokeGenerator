@@ -30,6 +30,7 @@
     font-weight: bold;
     text-align: center;
     padding: 20px;
+    font-family: 'Days One';
 }
 
 .main {
@@ -43,17 +44,11 @@
 
 .keskitettynappi {
     border: none;
-    padding: 20px;
+    padding: 30px;
     color: white;
     background-color: cadetblue;
     font-weight: bold;
 }
-
-/*.keskitettynappi:hover {
-    color: cadetblue;
-    background-color: rgba(255, 255, 255, 0.3);
-    transition-duration: 0.5s;
-}*/
 
 .napinkeskitys {
     text-align: center;
@@ -61,12 +56,16 @@
 
 .keskitetty {
     text-align: center;
+    font-family: 'Days One';
+    color: darkkhaki;
 }
 
 #demo {
     width: 450px;
     margin: auto;
     max-width: 100%;
+    font-size: 120%;
+    text-align: justify;
 }
 
 .kuvakotelo {
@@ -82,14 +81,8 @@
 
 .footernappi {
     border: none;
-    padding: 10px;
+    padding: 20px;
     color: white;
     background-color: cadetblue;
     font-weight: bold;
 }
-
-/*.footernappi:hover {
-    color: cadetblue;
-    background-color: rgba(255, 255, 255, 0.3);
-    transition-duration: 0.5s;
-}*/

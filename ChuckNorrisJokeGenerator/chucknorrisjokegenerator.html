@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuck Norris Joke Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Days One' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.footernappi').click(function () {
+                $('.footernappi').text() == "HIDE CHUCK NORRIS" ?
+                    $('.footernappi').text("GENERATE CHUCK NORRIS") && $('img').hide() :
+                    $('.footernappi').text("HIDE CHUCK NORRIS") && $('img').show();
+            })
+        });
+    </script>
+</head>
+<body class="body">
+<div class="content">
+    <header class="header">
+        <h1>Chuck Norris Joke Generator</h1>
+        <div class="keskitetty">
+            Welcome to Chuck Norris Joke Generator!<br><br>
+        </div>
+    </header>
+    <div class="main">
+        <div class="napinkeskitys">
+            <button class="keskitettynappi" type="button" onclick="hae()">
+                GENERATE CHUCK NORRIS JOKE
+            </button>
+        </div>
+        <br>
+        <div id="demo"></div>
+        <div class="kuvakotelo">
+            <br>
+            <br>
+            <img hidden src="norris.png" class="kuva">
+        </div>
+        <div class="napinkeskitys">
+            <button class="footernappi" type="button">
+                GENERATE CHUCK NORRIS
+            </button>
+        </div>
+    </div>
+    <footer class="footer">
+
+    </footer>
+</div>
+<script src="getdata.js"></script>
+</body>
+</html>

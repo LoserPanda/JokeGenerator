@@ -1,0 +1,85 @@
+#container {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: sticky;
+    width: 400px;
+    margin: auto;
+    max-width: 100%;
+    padding: 20px;
+    font-family: Calibri;
+}
+
+header {
+    text-align: center;
+    background-color: green;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    font-family: Barrio;
+    color: white;
+}
+
+h1+p {
+    font-family: 'Chelsea Market';
+}
+
+#main {
+    background-color: lightsteelblue;
+    padding: 5px 30px 5px 30px;
+    margin: 10px;
+    text-align: justify;
+}
+
+#appLinks {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:active {
+    background-color: white;
+}
+
+.linkdiv {
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.linkdiv:hover {
+    background-color: white;
+}
+
+#linkdiv1 {
+    background-color: coral;
+    font-family: 'Days One';
+}
+
+#linkdiv2 {
+    font-family: Aldrich, Arial;
+    font-size: 200%;
+    background-color: gold;
+    margin: 10px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: darkslategrey;
+    color: white;
+    padding: 30px;
+    font-family: Barrio;
+}
+
+#gitHubLink {
+    color: black;
+    font-family: 'Chelsea Market';
+    font-weight: bold;
+}
+
+#gitHubLink:hover {
+    color: gold;
+}
