@@ -66,8 +66,8 @@ a:active {
     font-family: Aldrich, Arial;
     font-size: 200%;
     background-color: gold;
-    margin: 10px;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 #linkdiv2:hover, #linkdiv2:active {
