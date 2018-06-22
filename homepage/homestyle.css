@@ -58,12 +58,20 @@ a:active {
     font-family: 'Days One';
 }
 
+#linkdiv1:hover, #linkdiv1:active {
+    background-color: white;
+}
+
 #linkdiv2 {
     font-family: Aldrich, Arial;
     font-size: 200%;
     background-color: gold;
     margin: 10px;
     font-weight: bold;
+}
+
+#linkdiv2:hover, #linkdiv2:active {
+    background-color: white;
 }
 
 footer {
