@@ -1,17 +1,97 @@
 * {
-    outline: 1px dotted blue;
+    font-family: 'Audiowide', 'Arial';
+}
+
+#container {
+    background-color: honeydew;
+    position: sticky;
+    width: 500px;
+    margin: auto;
+    max-width: 100%;
+    font-family: Calibri;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: yellowgreen;
+    margin: 10px;
+}
+
+#score {
+    text-align: center;
+    padding: 10px;
+    background-color: darkslategray;
+    margin: 10px;
+}
+
+#world {
+    text-align: center;
+    margin: 10px;
+}
+
+#navigation {
+    text-align: center;
+    padding: 10px;
+    background-color: darkslategray;
+    margin: 10px;
+}
+
+#navigation button {
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+}
+
+#navButtonLeft {
+    background-color: honeydew;
+    border: none;
+    width: 30%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+#navButtonDown {
+    background-color: yellowgreen;
+    border: none;
+    width: 30%;
+    height: 50px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+#navButtonRight {
+    background-color: honeydew;
+    border: none;
+    height: 50px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 120%;
 }
 
 .empty {
-    width: 50px;
-    height: 50px;
     background-color: black;
     display: inline-block;
     outline: 3px solid black;
 }
 
+#world div {
+    width: 50px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+    #world div {
+        width: 30px;
+        height: 30px;
+    }
+}
+
 #afterEnd {
-    background-color: crimson;
+    padding: 10px;
+    color: gold;
 }
 
 .color1 {

@@ -63,7 +63,7 @@ a:active {
 }
 
 #linkdiv2 {
-    font-family: Aldrich, Arial;
+    font-family: 'Aldrich', 'Arial';
     font-size: 200%;
     background-color: gold;
     font-weight: bold;
@@ -71,6 +71,18 @@ a:active {
 }
 
 #linkdiv2:hover, #linkdiv2:active {
+    background-color: white;
+}
+
+#linkdiv3 {
+    font-family: 'Audiowide', 'Arial';
+    font-size: 200%;
+    background-color: yellowgreen;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#linkdiv3:hover, #linkdiv3:active {
     background-color: white;
 }
 
